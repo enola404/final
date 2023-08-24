@@ -1,0 +1,297 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.header .container span{
+  background-color: #ff523b;
+  border-radius: 20px;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(2, 83, 2);
+}
+
+p {
+  color: rgb(1, 44, 1);
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.headT {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  width: 480px;
+  padding: 50px ;
+  margin-left: 140px;
+  
+
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+  color: green;
+  margin-top: -120px;
+}
+.btn {
+  display: inline-block;
+  background: green;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.lab input{
+  width:300px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  font-size: 15px;
+  text-align: center;
+}
+.lab svg path{
+  color: green;
+}
+
+.btn:hover { 
+  color: #fff;
+ 
+}
+
+.header {
+  background: radial-gradient(#fff,orange );
+  height: 690px;
+}
+
+<!----- salesstyle --------->
+.exp {
+  margin: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.foodimg {
+  flex-basis: 30%;
+  min-width: 250px;
+  height: 300px;
+  
+}
+
+
+.foodexp .row {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+
+}
+
+.foodexp{
+  margin-top: 100px;
+}
+
+.exp h1{
+  text-align: center;
+  color: #ff523b;
+}
+-------------------
+
+
+.foodexp {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 25px;
+}
+
+.imgp {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.imgp img {
+  width: 200px; 
+  height: 200px;
+  
+
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.rating .fa {
+  color: #ff523b;
+}
+
+.imgp:hover {
+  transform: translateY(-5px);
+}
+.foodexp.row{
+  justify-content: space-between;
+  background: linear-gradient( #fff , bisque );
+}
+
+
+.card{
+  background: url(food/pizza.jpg);
+  width: 100%;
+  height: 100vh;
+} 
+.card h1{
+  color: yellow;
+  font-weight:solid 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+.card .checkout{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: yellow;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100px;
+  cursor: pointer;
+}
+.card .checkout .total {
+  margin-right: 1100px;
+  color: rgb(71, 48, 48);
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card .checkout .closeshopping{
+  color: rgb(71, 48, 48);
+  font-size: 20px;
+  border: solid 2px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: antiquewhite;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card.checkout h3{
+  color: rgb(71, 48, 48);
+  font-size: 30px;
+}
+.ordernow{
+  background: linear-gradient(#fff,bisque )
+}
+
+#options {
+  background: linear-gradient(#fff,bisque );
+}
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: gray;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: '\2605';
+}
+
+.rating input:checked ~ label {
+  color: orange;
+}
+
+#submitRating {
+  margin-top: 10px;
+}
+
+
+

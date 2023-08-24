@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Restaurent</title>
+  <link rel="stylesheet" href="final (2).css">
+  
+</head>
+
+<body>
+
+  <!----- head page--------->
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="final.html">
+            <img src="food/logo.png" alt="" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#options">Food options</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <img src="food/cart.png" alt="" width="30px" height="30px"0 onclick="total_aff()"/>
+        <label id="total">0</label><br><br>
+        <label id="add">0</label><br><br>
+        <label id="index">0</label><br><br>
+        
+          
+        
+      </div>
+      <div class="headT">
+        <div class="col-2">
+          <h1>
+            Hungry?
+            <br />
+            you're in the right place.
+          </h1>
+          <p>
+            positive food experience is not about eating just to eat.
+             It's about experiencing it, enjoying it, and creating memorie
+          </p>
+          <div class="lab">
+            <input type="text" name="enter location" placeholder="enter location" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            <a href="option.html" class="btn">order now &#8594;</a>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="food/images-removebg-preview (1).png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!----- sales --------->
+ <section id="options"> 
+  <div class="exp">
+    <div class="foodexp">
+      <div class="row">
+        <div class="foodimg">
+          <img src="food/téléchargement (6)-modified.png" alt="" />
+        </div>
+        <div class="foodimg">
+          <img src="food/images (4)-modified.png" alt="" />
+        </div>
+        <div class="foodimg" >
+          <img src="food/images (3)-modified.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <h1> Let's get you Some Food</h1>
+  </div>
+<!-----pasta --------->
+<div class="foodexp">
+  
+  <h2 class="title">Pasta</h2>
+  <div class="row">
+    <div class="imgp">
+      <a href="food options.html">
+        <img src="food/rigatonipasta.jpg" alt=""/></a>
+      
+      <h4>Rigatoni Pasta</h4>
+
+      <div class="rating">
+        <input type="radio" id="item1_star5" name="item1_rating" value="5">
+        <label for="item1_star5"></label>
+        <input type="radio" id="item1_star4" name="item1_rating" value="4">
+        <label for="item1_star4"></label>
+        <input type="radio" id="item1_star3" name="item1_rating" value="3">
+        <label for="item1_star3"></label>
+        <input type="radio" id="item1_star2" name="item1_rating" value="2">
+        <label for="item1_star2"></label>
+        <input type="radio" id="item1_star1" name="item1_rating" value="1">
+        <label for="item1_star1"></label>
+    </div>
+    
+      <p class="price">5.34</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+
+    <div class="imgp">
+      <img src="food/téléchargement (9).jpg" alt="" />
+      <h4>feta pasta</h4>
+      <div class="rating">
+        <input type="radio" id="item2_star5" name="item2_rating" value="5">
+        <label for="item2_star5"></label>
+        <input type="radio" id="item2_star4" name="item2_rating" value="4">
+        <label for="item2_star4"></label>
+        <input type="radio" id="item2_star3" name="item2_rating" value="3">
+        <label for="item2_star3"></label>
+        <input type="radio" id="item2_star2" name="item2_rating" value="2">
+        <label for="item2_star2"></label>
+        <input type="radio" id="item2_star1" name="item2_rating" value="1">
+        <label for="item2_star1"></label>
+    </div>
+
+      <p class="price">3.96</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+
+    <div class="imgp">
+      <img src="food/téléchargement (10).jpg" alt="" />
+      <h4>chicken pasta</h4>
+      <div class="rating">
+        <input type="radio" id="item3_star5" name="item3_rating" value="5">
+        <label for="item3_star5"></label>
+        <input type="radio" id="item3_star4" name="item3_rating" value="4">
+        <label for="item3_star4"></label>
+        <input type="radio" id="item3_star3" name="item3_rating" value="3">
+        <label for="item3_star3"></label>
+        <input type="radio" id="item3_star2" name="item3_rating" value="2">
+        <label for="item3_star2"></label>
+        <input type="radio" id="item3_star1" name="item3_rating" value="1">
+        <label for="item3_star1"></label>
+    </div>
+      <p class="price">4.23</p>
+      <button onclick="quantity()"class="btn">add to cart</button>
+    </div>
+    <div class="imgp">
+      <img src="food/téléchargement (11).jpg" alt="" />
+      <h4>broccoli pasta</h4>
+      <div class="rating">
+        <input type="radio" id="item4_star5" name="item4_rating" value="5">
+        <label for="item4_star5"></label>
+        <input type="radio" id="item4_star4" name="item4_rating" value="4">
+        <label for="item4_star4"></label>
+        <input type="radio" id="item4_star3" name="item4_rating" value="3">
+        <label for="item4_star3"></label>
+        <input type="radio" id="item4_star2" name="item4_rating" value="2">
+        <label for="item4_star2"></label>
+        <input type="radio" id="item4_star1" name="item4_rating" value="1">
+        <label for="item4_star1"></label>
+    </div>
+      <p class="price">2.98</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+  </div>
+ <!---------burger-------->
+ <div class="foodexp">
+  <h2 class="title">Burger</h2>
+  <div class="row">
+    <div class="imgp">
+      <a href="food options.html">
+        <img src="food/téléchargement (15).jpg" alt=""
+      /></a>
+      <h4>cheese burger</h4>
+      <div class="rating">
+        <input type="radio" id="item5_star5" name="item5_rating" value="5">
+        <label for="item5_star5"></label>
+        <input type="radio" id="item5_star4" name="item5_rating" value="4">
+        <label for="item5_star4"></label>
+        <input type="radio" id="item5_star3" name="item5_rating" value="3">
+        <label for="item5_star3"></label>
+        <input type="radio" id="item5_star2" name="item5_rating" value="2">
+        <label for="item5_star2"></label>
+        <input type="radio" id="item5_star1" name="item5_rating" value="1">
+        <label for="item5_star1"></label>
+    </div>
+      <p class="price">4.25</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+
+    <div class="imgp">
+      <img src="food/téléchargement (13).jpg" alt="" />
+      <h4>turkey burger</h4>
+      <div class="rating">
+        <input type="radio" id="item6_star5" name="item6_rating" value="5">
+        <label for="item6_star5"></label>
+        <input type="radio" id="item6_star4" name="item6_rating" value="4">
+        <label for="item6_star4"></label>
+        <input type="radio" id="item6_star3" name="item6_rating" value="3">
+        <label for="item6_star3"></label>
+        <input type="radio" id="item6_star2" name="item6_rating" value="2">
+        <label for="item6_star2"></label>
+        <input type="radio" id="item6_star1" name="item6_rating" value="1">
+        <label for="item6_star1"></label>
+    </div>
+      <p class="price">6.65</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+
+    <div class="imgp">
+      <img src="food/téléchargement (17).jpg" alt="" />
+      <h4>Portobello mushroom burger</h4>
+      <div class="rating">
+        <input type="radio" id="item7_star5" name="item7_rating" value="5">
+        <label for="item7_star5"></label>
+        <input type="radio" id="item7_star4" name="item7_rating" value="4">
+        <label for="item7_star4"></label>
+        <input type="radio" id="item7_star3" name="item7_rating" value="3">
+        <label for="item7_star3"></label>
+        <input type="radio" id="item7_star2" name="item7_rating" value="2">
+        <label for="item7_star2"></label>
+        <input type="radio" id="item7_star1" name="item7_rating" value="1">
+        <label for="item7_star1"></label>
+    </div>
+      <p class="price">3.78</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+    <div class="imgp">
+      <img src="food/images (5).jpg" alt="" />
+      <h4>Wild salmon burger</h4>
+      <div class="rating">
+        <input type="radio" id="item8_star5" name="item8_rating" value="5">
+        <label for="item8_star5"></label>
+        <input type="radio" id="item8_star4" name="item8_rating" value="4">
+        <label for="item8_star4"></label>
+        <input type="radio" id="item8_star3" name="item8_rating" value="3">
+        <label for="item8_star3"></label>
+        <input type="radio" id="item8_star2" name="item8_rating" value="2">
+        <label for="item8_star2"></label>
+        <input type="radio" id="item8_star1" name="item8_rating" value="1">
+        <label for="item8_star1"></label>
+    
+      </div>
+      <p class="price">5.54</p>
+      <button onclick="quantity()" class="btn">add to cart</button>
+    </div>
+  </div>
+
+  <!---------pizza-------->
+  <div class="foodexp">
+    <h2 class="title">Pizza</h2>
+    <div class="row">
+      <div class="imgp">
+        <a href="food options.html">
+          <img src="food/téléchargement (20).jpg" alt=""
+        /></a>
+        <h4>new york–style pizza</h4>
+        <div class="rating">
+          <input type="radio" id="item9_star5" name="item9_rating" value="5">
+          <label for="item9_star5"></label>
+          <input type="radio" id="item9_star4" name="item9_rating" value="4">
+          <label for="item9_star4"></label>
+          <input type="radio" id="item9_star3" name="item9_rating" value="3">
+          <label for="item9_star3"></label>
+          <input type="radio" id="item9_star2" name="item9_rating" value="2">
+          <label for="item9_star2"></label>
+          <input type="radio" id="item9_star1" name="item9_rating" value="1">
+          <label for="item9_star1"></label>
+      </div>
+        <p class="price">4.25</p>
+        <button onclick="quantity()"class="btn">add to cart</button>
+      </div>
+  
+      <div class="imgp">
+        <img src="food/téléchargement (21).jpg" alt="" />
+        <h4>pizza margherita</h4>
+        <div class="rating">
+          <input type="radio" id="item10_star5" name="item10_rating" value="5">
+          <label for="item10_star5"></label>
+          <input type="radio" id="item10_star4" name="item10_rating" value="4">
+          <label for="item10_star4"></label>
+          <input type="radio" id="item10_star3" name="item10_rating" value="3">
+          <label for="item10_star3"></label>
+          <input type="radio" id="item10_star2" name="item10_rating" value="2">
+          <label for="item10_star2"></label>
+          <input type="radio" id="item10_star1" name="item10_rating" value="1">
+          <label for="item10_star1"></label>
+      </div>
+        <p class="price">6.65</p>
+        <button onclick="quantity()" class="btn">add to cart</button>
+      </div>
+  
+      <div class="imgp">
+        <img src="food/téléchargement (22).jpg" alt="" />
+        <h4>neapolitan pizza</h4>
+        <div class="rating">
+          <input type="radio" id="item11_star5" name="item11_rating" value="5">
+          <label for="item11_star5"></label>
+          <input type="radio" id="item11_star4" name="item11_rating" value="4">
+          <label for="item11_star4"></label>
+          <input type="radio" id="item11_star3" name="item11_rating" value="3">
+          <label for="item11_star3"></label>
+          <input type="radio" id="item11_star2" name="item11_rating" value="2">
+          <label for="item11_star2"></label>
+          <input type="radio" id="item11_star1" name="item11_rating" value="1">
+          <label for="item11_star1"></label>
+      </div>
+        <p class="price">3.78</p>
+        <button onclick="quantity()" class="btn">add to cart</button>
+      </div>
+      <div class="imgp">
+        <img src="food/images (7).jpg" alt="" />
+        <h4>sicilian pizza</h4>
+        <div class="rating">
+          <input type="radio" id="item12_star5" name="item12_rating" value="5">
+          <label for="item12_star5"></label>
+          <input type="radio" id="item12_star4" name="item12_rating" value="4">
+          <label for="item12_star4"></label>
+          <input type="radio" id="item12_star3" name="item12_rating" value="3">
+          <label for="item12_star3"></label>
+          <input type="radio" id="item12_star2" name="item12_rating" value="2">
+          <label for="item12_star2"></label>
+          <input type="radio" id="item12_star1" name="item12_rating" value="1">
+          <label for="item12_star1"></label>
+      </div>
+        <p class="price">7.33</p>
+        <button onclick="quantity()" class="btn">add to cart</button>
+      
+      </div>
+    </div>
+  </section>
+  <section id="about">
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="final (1).js"></script>
+</body>
+</html>

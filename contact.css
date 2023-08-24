@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  color: rgb(2, 83, 2);
+}
+.container{
+  background: radial-gradient(#fff,orange );
+  height: 100vh;
+}
+.qua{
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.main h2{
+  margin-left: 490px;
+  margin-top: 40px;
+  font-size: 40px;
+  color:rgb(2, 83, 2) ;
+}
+
+.menu {
+  margin-top:80px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  background: rgb(3, 48, 3);
+  font-size: 30px;
+  border: solid 1px;
+  margin-right: 800px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.log{
+  width: 300px;
+  height: 350px;
+  background: rgb(3, 48, 3);
+  position: absolute;
+  top: 200px;
+  left: 870px;
+  border-radius:10px ;
+  padding: 25px;
+
+  
+}
+
+.log h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orange;
+  font-size: 22px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.log input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom:1px solid orangered;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.log input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #fff;
+  font-family: arial;
+
+}
+
+.btn{
+  width: 240px;
+  height: 40px;
+  background: orange;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+  background: transparent;
+  color: orange;
+}
+
+.link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.sign{
+  text-align: center;
+  color: orange;
+  margin-left: 75px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sign:hover{
+  color: #fff;
+}
